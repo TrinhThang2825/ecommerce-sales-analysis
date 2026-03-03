@@ -32,7 +32,7 @@
 | **Tuần 5** | Trực quan hóa dữ liệu: Vẽ biểu đồ cột (doanh thu), tròn (thị phần) và đường (xu hướng). | [ ] | Các file ảnh trong `/reports` | |
 | **Tuần 6** | Phân tích sâu: So sánh hiệu suất giữa các ngành hàng; Phân tích tương quan giữa Rating và Sales. | [ ] | File `03_correlation_analysis.ipynb` | |
 | **Tuần 7** | Tổng kết Insight: Viết nhận xét về xu hướng thị trường; Hoàn thiện file báo cáo Markdown. | [ ] | File `Final_Report.md` | |
-| **Tuần 8** | Đóng gói mã nguồn; Hoàn thiện README; Chuẩn bị Slide thuyết trình cuối kỳ. | [ ] | Link Repo hoàn thiện | **Trao đổi 4** |
+| **Tuần 8** | Đóng gói mã nguồn; Hoàn thiện README; Chuẩn bị Slide thuyết trình cuối kỳ. | [ ] | Link Repo hoàn thiện | |
 
 ---
 
