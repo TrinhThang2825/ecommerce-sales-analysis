@@ -6,7 +6,7 @@
 * **Lớp:** INT13187-20252-21
 * **Email:** trinhxuanthang200805@gmail.com
 * **GitHub username:** TrinhThang2825
-* **Link repository:** https://github.com/TrinhThang2825/ThucTapCoSo_DataAnalysis_B23DCCN757
+* **Link repository:** https://github.com/TrinhThang2825/TTCS-B23DCCN757-TrinhXuanThang
 
 ## 2. Định hướng & Mục tiêu
 1. **Tôi muốn làm vai trò gì sau khi ra trường?**
