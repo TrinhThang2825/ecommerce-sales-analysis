@@ -1,51 +1,34 @@
 # Thực tập Cơ sở – Kế hoạch & Tiến độ 08 Tuần
 
 ## 1. Thông tin sinh viên
-
-* **Họ tên:** Trịnh Xuân Thắng
-* **MSSV:** B23DCCN757
-* **Lớp:** INT13187-20252-21
-* **Email:** trinhxuanthang200805@gmail.com
+* **Họ tên:** Trịnh Xuân Thắng | **MSSV:** B23DCCN757
+* **Lớp:** INT13187-20252-21 | **Email:** trinhxuanthang200805@gmail.com
 * **GitHub username:** TrinhThang2825
+* **Link repository:** https://github.com/TrinhThang2825/ThucTapCoSo_DataAnalysis_B23DCCN757
 
-## 2. Đăng ký chủ đề thực tập
+## 2. Định hướng & Mục tiêu
+1. **Vai trò hướng tới:** Data Analyst.
+2. **Kỹ năng tập trung:** - **Python (Pandas):** Xử lý và biến đổi dữ liệu.
+   - **Data Visualization (Seaborn/Matplotlib):** Trực quan hóa kết quả phân tích.
+3. **Mục tiêu:** Xây dựng quy trình phân tích từ dữ liệu giả lập đến báo cáo biểu đồ chuyên nghiệp cho thị trường Laptop.
 
-* **Định hướng (roadmap.sh):**
-    * [x] Cải thiện / tập trung vào một kỹ năng
-    * [ ] Kỹ năng mới / trend
-    * [x] Nghiên cứu / đề tài / dự án
-* **1–3 kỹ năng chính:** Python (Pandas/Numpy), SQL (Data Querying), Data Visualization (Matplotlib/Seaborn).
-* **Bài toán / nội dung áp dụng cụ thể:** Phân tích xu hướng thị trường và đánh giá sản phẩm trên sàn thương mại điện tử (E-commerce). Tập trung vào luồng xử lý dữ liệu (ETL), phân tích tương quan giữa đánh giá người dùng (Rating) và doanh số để tìm ra các mặt hàng tiềm năng.
-* **Link GitHub repository:** https://github.com/TrinhThang2825/ThucTapCoSo_DataAnalysis_B23DCCN75
-* **Làm việc nhóm (nếu có):** Không
-
----
-
-## 3. Kế hoạch thực hiện 08 tuần (Từ 23/02/2026 - 23/04/2026)
-
-| Tuần | Nhiệm vụ | Trạng thái | Kết quả đầu ra | Ghi chú |
-| :--- | :--- | :---: | :--- | :--- |
-| **Tuần 1** | Tìm kiếm Dataset trên Kaggle; Khởi tạo cấu trúc Repo GitHub (data, notebooks, src, reports). | [x] | [Thư mục data/](./data/) | Đã hoàn thiện cấu trúc và upload dataset |
-| **Tuần 2** | Thiết lập môi trường; Sử dụng SQL để truy vấn doanh thu theo tháng và lọc đơn hàng thành công. | [ ] | File `01_sql_queries.ipynb` | |
-| **Tuần 3** | Làm sạch dữ liệu (Data Cleaning): Xử lý giá trị rỗng (Null), trùng lặp và chuẩn hóa kiểu dữ liệu. | [ ] | Dataset sạch trong `/data` | |
-| **Tuần 4** | Phân tích thống kê mô tả: Tính toán trung bình, trung vị, độ lệch chuẩn và các chỉ số tăng trưởng. | [ ] | File `02_descriptive_stats.ipynb` | |
-| **Tuần 5** | Trực quan hóa dữ liệu: Vẽ biểu đồ cột (doanh thu), tròn (thị phần) và đường (xu hướng). | [ ] | Các file ảnh trong `/reports` | |
-| **Tuần 6** | Phân tích sâu: So sánh hiệu suất giữa các ngành hàng; Phân tích tương quan giữa Rating và Sales. | [ ] | File `03_correlation_analysis.ipynb` | |
-| **Tuần 7** | Tổng kết Insight: Viết nhận xét về xu hướng thị trường; Hoàn thiện file báo cáo Markdown. | [ ] | File `Final_Report.md` | |
-| **Tuần 8** | Đóng gói mã nguồn; Hoàn thiện README; Chuẩn bị Slide thuyết trình cuối kỳ. | [ ] | Link Repo hoàn thiện | |
+## 3. Đăng ký chủ đề thực tập
+* **Tên đề tài:** Phân tích dữ liệu giả lập thị trường Laptop 2026.
+* **Bài toán cụ thể:** Sử dụng Python để xử lý tập dữ liệu giả lập, sau đó dùng các biểu đồ thống kê để tìm ra mối tương quan giữa cấu hình máy (RAM, Brand) và giá bán.
 
 ---
 
-## 4. Checklist & Tổng kết
+## 4. Kế hoạch thực hiện (Nguyên tắc: Đọc → Hiểu → Thực hiện)
 
-* [ ] Tham gia đủ 04 buổi trao đổi online
-* [ ] Có cập nhật tiến độ định kỳ trên GitHub
-* [ ] Sản phẩm cuối cùng chạy được và có kết quả trực quan
+| Tuần | Nội dung Tìm hiểu (Kỹ năng) | Nội dung Thực hành | Trạng thái |
+| :--- | :--- | :--- | :---: |
+| **T1** | Cấu trúc Repo & Markdown cơ bản. | Thiết lập cấu trúc thư mục GitHub. | [x] |
+| **T2** | **Python:** Numpy & Pandas cơ bản. | Viết script tạo dữ liệu giả lập 200 dòng. | [x] |
+| **T3** | **Python:** Thống kê mô tả với Pandas. | Tính toán Mean, Median, Groupby theo Brand. | [x] |
+| **T4** | **Visualization:** Biểu đồ cột & tròn. | Vẽ biểu đồ so sánh số lượng máy giữa các hãng. | [ ] |
+| **T5** | **Visualization:** Biểu đồ đường & tán xạ. | Vẽ biểu đồ thể hiện sự thay đổi giá theo RAM. | [ ] |
+| **T6** | **Python & Viz:** Kết hợp phân tích sâu. | Phân tích phân khúc giá theo từng loại máy. | [ ] |
+| **T7** | Hoàn thiện báo cáo (Storytelling). | Tổng hợp Insights vào file README và PDF. | [ ] |
+| **T8** | Tổng kết & Báo cáo cuối kỳ. | Demo và phản ánh quá trình học tập. | [ ] |
 
-**Tự đánh giá mức độ hoàn thành:** 15 %
-
-**Vướng mắc / nội dung cần giảng viên hỗ trợ:**
-- Hướng dẫn cách tối ưu hóa các câu lệnh SQL khi xử lý tập dữ liệu có quy mô lớn.
-- Tư vấn cách trình bày Insights trên file Markdown sao cho chuyên nghiệp.
-
-**Link repository cuối cùng:** https://github.com/TrinhThang2825/ThucTapCoSo_DataAnalysis_B23DCCN75
+**Tự đánh giá:** 35%
