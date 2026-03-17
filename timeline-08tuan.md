@@ -132,4 +132,3 @@
 - [ ] Sản phẩm cuối chạy được / demo được.
 
 **Tự đánh giá mức độ hoàn thành:** 35%
-**Điều tôi tự hào nhất:** Đã tự chủ động xây dựng script Python để tạo dữ liệu giả lập có logic, giúp làm chủ hoàn toàn quy trình phân tích.
